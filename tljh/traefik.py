@@ -108,7 +108,7 @@ def ensure_traefik_binary(prefix):
             os.remove(traefik_bin)
 
     traefik_url = (
-        https://gh.llkk.cc/https://github.com/traefik/traefik/releases/download/v3.1.4/traefik_v3.1.4_linux_amd64.tar.gz
+        "https://gh.llkk.cc/https://github.com/traefik/traefik/releases/download/v3.1.4/traefik_v3.1.4_linux_amd64.tar.gz"
         #"https://gh.llkk.cc/https://github.com/traefik/traefik/releases/"f"/download/v{traefik_version}/traefik_v{traefik_version}_{plat}.tar.gz"
     )
 
