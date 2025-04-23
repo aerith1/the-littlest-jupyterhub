@@ -162,7 +162,8 @@ def _miniforge_url(version=MINIFORGE_VERSION, arch=None):
     """
     if arch is None:
         arch = os.uname().machine
-    installer_url = "https://github.com/conda-forge/miniforge/releases/download/{v}/Miniforge3-{v}-Linux-{arch}.sh".format(
+    #https://gh.llkk.cc/https://github.com/conda-forge/miniforge/releases/download/24.7.1-2/Miniforge3-{v}-Linux-{arch}.sh
+    installer_url = "https://gh.llkk.cc/https://github.com/conda-forge/miniforge/releases/download/24.7.1-2/Miniforge3-{v}-Linux-{arch}.sh".format(
         v=version,
         arch=arch,
     )
